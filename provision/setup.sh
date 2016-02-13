@@ -29,7 +29,7 @@ sudo apt-get install mysql-server -y
 
 echo "Configuring Nginx"
 sudo cp /var/www/provision/config/nginx_vhost /etc/nginx/sites-available/vhost
-sudo ln -s /etc/nginx/sites-available/nginx_vhost /etc/nginx/sites-enabled/
+sudo ln -s /etc/nginx/sites-available/vhost /etc/nginx/sites-enabled/
 
 sudo rm -rf /etc/nginx/sites-available/default
 
